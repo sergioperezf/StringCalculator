@@ -10,7 +10,7 @@ public class StringCalculator {
       System.out.println(Add("3;1;5;3"));
       System.out.println(Add("3;1\n5;3"));
       System.out.println(Add("3;1\n;5;3"));
-      System.out.println(Add("//oo\n-7oo1\n-5oo3"));
+      System.out.println(Add(""));
     } catch (Exception ex) {
       System.out.println(ex.getMessage());
     }
